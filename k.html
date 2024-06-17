@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feliz Día Cumpleañera</title>
+    <link rel="stylesheet" href="a.css">
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Open+Sans&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <h1 class="title">Feliz Día Cumpleañera</h1>
+        <nav>
+            <ul>
+                <li><a href="#inicio" id="inicio-link">Inicio</a></li>
+                <li><a href="#nosotros" id="nosotros-link">De mi Para ti:</a></li>
+                <li><a href="#acerca" id="acerca-link">Acerca de ti</a></li>
+                <li><a href="#si" id="si-link">...</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main id="inicio">
+        <center>
+            <div class="image-container">
+                <img src="2.gif" width="400" alt="Romantic Image" id="main-image">
+            </div>
+        </center>
+
+        <section class="welcome">
+            <h2>Explora la página del amor</h2>
+            <p>¡Bienvenido a un rincón para celebrar tu día especial!</p>
+            <!-- Este botón se puede ocultar si se va a usar el enlace Nosotros -->
+            <button class="surprise-button" id="surprise-button">Presiona para una Sorpresa</button>
+        </section>
+
+        <!-- Contenedor para la sorpresa -->
+        <section id="surprise-content" class="hidden"></section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
